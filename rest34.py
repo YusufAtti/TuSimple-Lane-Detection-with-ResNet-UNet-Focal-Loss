@@ -13,7 +13,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Training on: {device}")
 
 # Dataset Yolu
-data_dir = r"C:\\Users\\berat\\PycharmProjects\\archive\\TuSimple\\train_set"
+data_dir = r"C:dataset_path\\archive\\TuSimple\\train_set"
 label_file = os.path.join(data_dir, "label_data_0601.json")
 
 # TuSimple Dataset Sınıfı
