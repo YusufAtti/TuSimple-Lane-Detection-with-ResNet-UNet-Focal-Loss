@@ -28,7 +28,7 @@ transform = transforms.Compose([
 ])
 
 # Test görüntülerinin bulunduğu klasör (belirtilen klasör)
-test_images_dir = "C:/Users/berat/PycharmProjects/archive/TuSimple/test_set/clips/0530/1492626224112349377_0"
+test_images_dir = "C:/dataset_path/archive/TuSimple/test_set/clips/0530/1492626224112349377_0"
 
 # Belirtilen klasördeki görüntüleri işleyin
 for file_name in os.listdir(test_images_dir):
